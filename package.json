@@ -1,0 +1,9 @@
+{
+  "name": "Dpcss",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-css":  ">0.0.0",
+    "grunt-contrib-concat": "~0.1.1"
+  }
+}
