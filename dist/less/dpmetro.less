@@ -8,29 +8,37 @@
   cursor: pointer;
   *zoom: 1;
 }
+
 .bn-yel:hover,
 .bn-ash:hover,
 .bn-epico:hover {
   text-decoration: none;
 }
+
+
 /* 橙色 */
+
 .bn-yel {
   color: #fff;
   background: #ffaf44;
+ 
   background-color: #ff7e28;
   border: 1px solid #ff7617;
 }
+
 .bn-yel:hover {
   color: #fff;
   background: #fb6808;
   border: 1px solid #eb5e00;
 }
+
 .bn-yel:active {
   background: #fe9c3d;
   border: 1px solid #eb5e00;
   -webkit-box-shadow: 0px 1px 3px #f36000 inset;
-  -moz-box-shadow: 0px 1px 3px #f36000 inset;
+     -moz-box-shadow: 0px 1px 3px #f36000 inset;
 }
+
 .bn-yel.disabled,
 .bn-yel[disabled] {
   cursor: default;
@@ -40,29 +48,34 @@
   opacity: .65;
   filter: alpha(opacity=65);
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
 }
+
 /* 灰色 */
+
 .bn-ash {
   color: #333;
   background: #FAFAFA;
   border: 1px solid #ddd;
   -webkit-box-shadow: 0px 1px 0px #f8f8f8;
-  -moz-box-shadow: 0px 1px 0px #f8f8f8;
+     -moz-box-shadow: 0px 1px 0px #f8f8f8;
 }
+
 .bn-ash:hover {
   color: #333;
   background: #F5F5F5;
   border: 1px solid #c6c6c6;
   -webkit-box-shadow: 0px 1px 0px #eee;
 }
+
 .bn-ash:active {
   background: #EDEDED;
   border: 1px solid #c6c6c6;
   -webkit-box-shadow: 0px 1px 3px #d0d0d0 inset;
-  -moz-box-shadow: 0px 1px 3px #d0d0d0 inset;
+     -moz-box-shadow: 0px 1px 3px #d0d0d0 inset;
 }
+
 .bn-ash.disabled,
 .bn-ash[disabled] {
   cursor: default;
@@ -70,9 +83,13 @@
   opacity: .65;
   filter: alpha(opacity=65);
   -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
 }
+
+
+
+
 .bn-lg,
 .bn-group-lg > .cosbtn {
   padding: 12px 36px;
@@ -91,6 +108,7 @@
 .dropup .bn-lg .caret {
   border-width: 0 5px 5px;
 }
+
 .bn-sm,
 .bn-group-sm > .bn {
   padding: 7px 15px;
@@ -98,6 +116,8 @@
   line-height: 1.5;
   border-radius: 0;
 }
+
+
 /*
 Vi Wayne
 */
@@ -116,19 +136,20 @@ Vi Wayne
 .ip[type="url"],
 .ip[type="search"],
 .ip[type="tel"],
-.ip[type="color"] {
-  display: inline-block;
-  height: 20px;
-  padding: 8px 12px;
-  margin: 10px;
-  font-size: 14px;
-  line-height: 20px;
-  color: #555555;
-  vertical-align: middle;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
+.ip[type="color"],{
+display: inline-block;
+height: 20px;
+padding: 8px 12px;
+margin: 10px;
+font-size: 14px;
+line-height: 20px;
+color: #555555;
+vertical-align: middle;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
 }
+
 /*输入框选中高亮*/
 .ip:focus,
 .ip[type="text"]:focus,
@@ -150,10 +171,12 @@ Vi Wayne
   outline: 0;
   outline: thin dotted \9;
   /* IE6-9 */
+
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #ff8400;
-  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #ff8400;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #ff8400;
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #ff8400;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #ff8400;
 }
+
 /*大屏幕展示-黄色背景*/
 .jumbotron-yel {
   padding: 10px;
@@ -163,6 +186,7 @@ Vi Wayne
   line-height: 2.1428571435;
   background-color: #F8EDD1;
 }
+
 /*大屏幕展示-灰色背景*/
 .jumbotron-ash {
   padding: 10px;
@@ -172,16 +196,21 @@ Vi Wayne
   line-height: 2.1428571435;
   background-color: #eeeeee;
 }
+
+
 .pg {
   display: inline-block;
   padding-left: 0;
   margin: 20px 0;
   border-radius: 4px;
-  float: right;
+  
+ float: right;
 }
+
 .pg > li {
   display: inline;
 }
+
 .pg > li > a,
 .pg > li > span {
   position: relative;
@@ -192,23 +221,27 @@ Vi Wayne
   text-decoration: none;
   background-color: #ffffff;
 }
+
 .pg > li:first-child > a,
 .pg > li:first-child > span {
   margin-left: 0;
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
 }
+
 .pg > li:last-child > a,
 .pg > li:last-child > span {
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
+
 .pg > li > a:hover,
 .pg > li > span:hover,
 .pg > li > a:focus,
 .pg > li > span:focus {
   background-color: #eeeeee;
 }
+
 .pg > .active > a,
 .pg > .active > span,
 .pg > .active > a:hover,
@@ -221,6 +254,7 @@ Vi Wayne
   background-color: #428bca;
   border-color: #428bca;
 }
+
 .pg > .disabled > span,
 .pg > .disabled > span:hover,
 .pg > .disabled > span:focus,
@@ -232,39 +266,44 @@ Vi Wayne
   background-color: #ffffff;
   border-color: #dddddd;
 }
+
 .pg-lg > li > a,
 .pg-lg > li > span {
   padding: 10px 16px;
   font-size: 18px;
 }
+
 .pg-lg > li:first-child > a,
 .pg-lg > li:first-child > span {
   border-bottom-left-radius: 6px;
   border-top-left-radius: 6px;
 }
+
 .pg-lg > li:last-child > a,
 .pg-lg > li:last-child > span {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
 }
+
 .pg-sm > li > a,
 .pg-sm > li > span {
   padding: 5px 10px;
   font-size: 12px;
 }
+
 .pg-sm > li:first-child > a,
 .pg-sm > li:first-child > span {
   border-bottom-left-radius: 3px;
   border-top-left-radius: 3px;
 }
+
 .pg-sm > li:last-child > a,
 .pg-sm > li:last-child > span {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
 /*表格样式*/
-.table th,
-.table td {
+.table th, .table td {
   padding: 15px;
   line-height: 20px;
   vertical-align: top;
@@ -272,16 +311,19 @@ Vi Wayne
   font-size: 10px;
   border-top: 1px solid #dddddd;
 }
+
 /*单行失效*/
-.tr-ovdate {
-  color: #A3A0A0;
+.tr-ovdate{
+	color:#A3A0A0;
 }
+
 /* 灰色表头 */
-#td-grey {
-  padding: 8px;
-  background: #F0F0F0;
+#td-grey{
+   padding: 8px;
+   background: #F0F0F0;
 }
+
 /*单格激活*/
-.td-org {
-  color: #ff8400;
+.td-org{
+   color:#ff8400;
 }
