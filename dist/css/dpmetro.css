@@ -262,6 +262,98 @@ Vi Wayne
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
 }
+.progress-bar {
+  position: relative;
+  margin: 50px 0px 30px;
+}
+.progress-bar .line-gray {
+  position: absolute;
+  left: 83px;
+  top: 15px;
+  width: 618px;
+  height: 3px;
+  font-size: 0px;
+  overflow: hidden;
+  background-color: #999999;
+}
+.progress-bar .line-orange {
+  position: absolute;
+  left: 83px;
+  top: 15px;
+  width: 618px;
+  height: 3px;
+  font-size: 0px;
+  overflow: hidden;
+  background-color: #ff8400;
+}
+.progress-bar .progress-step {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.progress-bar .clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+  height: 0;
+}
+.progress-bar .step1 {
+  width: 0px;
+}
+.progress-bar .step2 {
+  width: 196px;
+}
+.progress-bar .step3 {
+  width: 392px;
+}
+.progress-bar .step4 {
+  width: 618px;
+}
+.progress-bar ul {
+  list-style: none;
+}
+.progress-bar li {
+  color: #999999;
+  width: 196px;
+  text-align: center;
+  float: left;
+}
+.progress-bar span {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  _display: inline;
+  zoom: 1;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 20px;
+  color: #ffffff;
+  background-position: -32px 0px;
+  background-color: #999999;
+}
+.progress-bar .active span {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  _display: inline;
+  zoom: 1;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 20px;
+  color: #ffffff;
+  background-position: -32px 0px;
+  background-color: #ff8400;
+}
+.progress-bar p {
+  font-size: 13px;
+}
 /*表格样式*/
 .table th,
 .table td {
