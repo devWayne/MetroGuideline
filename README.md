@@ -1,4 +1,4 @@
-Dp-Metro
+MetroGuideline 
 ========
 
-Flat UI Design for DP
+Flat UI Design
