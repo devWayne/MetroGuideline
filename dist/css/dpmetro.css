@@ -1,3 +1,6 @@
+.bn {
+  padding: 10px 40px;
+}
 /* ---button--- */
 .bn-yel,
 .bn-ash,
@@ -128,6 +131,8 @@ Vi Wayne
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   border-radius: 0px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
 }
 /*输入框选中高亮*/
 .ip:focus,

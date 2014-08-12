@@ -37,6 +37,6 @@
     grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).  
-    grunt.registerTask('default', ['concat', 'less', 'cssmin']);
+    grunt.registerTask('default', ['concat', 'less', 'cssmin','watch']);
 
   };
