@@ -5,13 +5,13 @@ var concat = require("gulp-concat");
 
 gulp.task("less", function() {
 	gulp.src("src/less/*.less")
-		.pipe(concat("dp-metro.less"))
+		.pipe(concat("eventsGl.less"))
 		.pipe(less())
 		.pipe(gulp.dest("dist/css/"));
 });
 gulp.task("cssmin", function() {
 	gulp.src("src/less/*.less")
-		.pipe(concat("dp-metro.min.less"))
+		.pipe(concat("eventsGl.min.less"))
 		.pipe(less())
 		.pipe(cssmin())
 		.pipe(gulp.dest("dist/cssmin/"));

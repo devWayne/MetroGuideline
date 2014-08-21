@@ -1,0 +1,107 @@
+img,object{max-width:100%; height:auto; width:auto\9; /* ie8 */ *width: 100%;/* ie6 */-ms-interpolation-mode: bicubic;}
+html,body,div,p,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,select,button,textarea,iframe,table,th,td{margin:0;padding:0}
+@glcolor:#ff8200;
+.main-list{
+	
+	.pre-list{
+		color: #999;
+		padding:10px;
+		font-size: 14px;
+		letter-spacing: 1px;
+		background-color: #eee;
+	}
+	.blk-list{	
+		padding: 10px;
+		display: -webkit-box;
+		position: relative;
+		.left-blk{
+			width:40%;
+			-webkit-box-sizing:border-box;
+		}
+		.right-blk{
+			font-size: 14px;
+			width:60%;
+			-webkit-box-sizing:border-box;			
+			.line-one{
+				color: #666;
+				padding-bottom: 10px;
+				white-space:nowrap;
+				overflow: hidden;
+				text-overflow:ellipsis;
+			}
+			.line-two{
+				position: relative;
+				padding-left: 15px;
+				.rmb{
+					position: absolute;
+					top:2px;
+					left:0px;
+					font-size: 18px;
+				}
+				color: @glcolor;
+				font-size: 40px;
+			}
+			.line-three{
+				margin-top: 5px;
+				color: #bbb;
+				text-decoration: line-through;
+
+			}
+		}
+		.btn{
+			position: absolute;
+			background-color: @glcolor;
+			padding: 5px 15px;
+			text-decoration: none;
+			color:white;
+			bottom: 10px;
+			right: 10px;
+			border-radius: 2px;
+		}	
+	}
+	hr{
+		margin: 5px 10px;
+	}
+}
+.popbox{
+	display: none;
+	z-index: 9999;
+	background-color: white;
+	border-radius: 5px;
+	width: 250px;
+
+	 .title{
+		  font-weight: bolder;
+		  padding-top:15px;
+		  text-align: center;
+  
+	}
+	 .content{
+		  text-indent: 20px;
+		  padding: 10px 15px;
+	}
+	 .btn{
+		  border-top: 1px solid #bbb;
+	 	 text-align: center;
+	 	 height: 40px;
+	 	 line-height: 40px;
+	 	 color: #119DFA;
+	}
+	 .j-back{
+		  box-sizing: border-box;
+		  -moz-box-sizing: border-box;
+		  -webkit-box-sizing: border-box;
+	 	  width: 50%;
+		  float: left;
+		  border-right: 1px solid #bbb;
+	}
+	 .j-update{
+	 	 box-sizing: border-box;
+	 	 -moz-box-sizing: border-box;
+	 	 -webkit-box-sizing: border-box;
+	 	 width: 50%;
+	 	 float: left;
+	  }
+
+}
+
